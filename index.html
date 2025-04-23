@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Tools Reference</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="stars2"></div>
+    <div class="stars3"></div>
+    
+    <header>
+        <div class="container">
+            <h1><span class="gradient-text">AI Tools</span> Reference</h1>
+            <p class="subtitle">Discover the perfect AI tool for your needs</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="search-section">
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search AI tools...">
+                <button id="searchButton" title="Search"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="filter-container">
+                <label for="categoryFilter">Filter by Category:</label>
+                <select id="categoryFilter">
+                    <option value="all">All Categories</option>
+                    <option value="text">Text Generation</option>
+                    <option value="image">Image Generation</option>
+                    <option value="video">Video Generation</option>
+                    <option value="audio">Audio Generation</option>
+                    <option value="code">Code Generation</option>
+                    <option value="productivity">Productivity</option>
+                    <option value="business">Business</option>
+                    <option value="education">Education</option>
+                </select>
+                <label for="priceFilter">Filter by Pricing:</label>
+                <select id="priceFilter">
+                    <option value="all">All Pricing</option>
+                    <option value="free">Free</option>
+                    <option value="freemium">Freemium</option>
+                    <option value="paid">Paid</option>
+                </select>
+            </div>
+        </section>
+
+        <section class="stats-section">
+            <div class="stat-card">
+                <h3>Total Tools</h3>
+                <p id="totalTools">0</p>
+            </div>
+            <div class="stat-card">
+                <h3>Free Tools</h3>
+                <p id="freeTools">0</p>
+            </div>
+            <div class="stat-card">
+                <h3>Categories</h3>
+                <p id="totalCategories">0</p>
+            </div>
+        </section>
+
+        <section class="tools-grid" id="toolsContainer">
+            <!-- Tools will be dynamically inserted here -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© <span id="currentYear"></span> AI Tools Reference. Continuously updated.</p>
+            <p class="github-link">
+                <a href="https://github.com/yourusername/ai-tools-reference" target="_blank" rel="noopener">
+                    <i class="fab fa-github"></i> View on GitHub
+                </a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

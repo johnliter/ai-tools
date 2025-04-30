@@ -1,6 +1,6 @@
 # AI Tools Reference Website
 
-![AI Tools Reference Screenshot](screenshot.png)  
+![AI Tools Reference Screenshot](screenshot.jpg)  
 
 ---
 

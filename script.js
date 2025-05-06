@@ -134,12 +134,12 @@ const aiTools = [
 
     // Video Generation
     {
-    "name": "InStories",
-    "description": "AI-powered platform for creating short marketing videos with automatic voiceovers and animations.",
-    "category": "video",
-    "price": "freemium",
-    "url": "https://instories.com",
-    "icon": "fa-video"
+        name: "InStories",
+        description: "AI-powered platform for creating short marketing videos with automatic voiceovers and animations.",
+        category: "video",
+        price: "freemium",
+        url: "https://instories.com",
+        icon: "fa-video"
     },
     {
         name: "Synthesia",
